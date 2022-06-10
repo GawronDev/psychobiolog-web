@@ -19,7 +19,7 @@ html {
 }
 
 .navbar-toggler {
-    border: none!important;
+    border: none !important;
 }
 
 .left-align {
@@ -31,14 +31,15 @@ html {
     transition: color 0.5s ease-in;
 }
 
-.active h1 {
-    color: #00848C!important;
+h1 {
+    color: #00848C !important;
     font-size: 3em;
     font-weight: 700;
 }
 
-.active p {
-    color: #17F1D7!important;
+ p {
+    font-size: 1.6em;
+    color: #17F1D7 !important;
 }
 
 .fp-tooltip {
@@ -49,22 +50,54 @@ ul span {
     background: #00CF91 !important;
 }
 
-.info-text {
-    margin-right: 60px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, 100%);
-}
-
 .full-container {
     padding: 0 !important;
     position: static;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-margin {
+    padding-right: 50px!important;
+}
+
+.img-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transform: translate(0, -20%);
+}
+
+.img-circle {
+    max-width: 60%;
+    z-index: 3;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .add-margin {
+        padding-right: 0px!important;
+    }
+    .img-container {
+        transform: translate(0, 0);
+    }
+
+    p {
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (max-width: 576px) {
     #fp-nav {
         display: none;
     }
+
 }
