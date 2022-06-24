@@ -78,8 +78,41 @@ ul span {
     z-index: 3;
 }
 
-.text-align-center {
-    text-align: center;
+.icon{
+    width: 150px!important;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.card-price {
+    color: #45D09E;
+    font-weight: 700;
+}
+
+.card-info {
+    margin-top: 25px;
+    color: #17F1D7!important
+}
+
+.card-subtitle {
+    color: #6bf8e8!important 
+}
+
+.card-button{
+    margin-top: 25px;
+    border: none;
+    background-color: #45D09E;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.card{
+    border-radius: 25px!important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none!important;
 }
 
 @media only screen and (max-width: 768px) {
